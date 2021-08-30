@@ -43,12 +43,12 @@
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
             this.passwTitleTextBox = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
             this.newPasswTextBox = new System.Windows.Forms.ToolStripTextBox();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.contextMenuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -136,6 +136,7 @@
             // 
             // toolStripButton1
             // 
+            this.toolStripButton1.BackColor = System.Drawing.Color.LightGray;
             this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -158,10 +159,21 @@
             // passwTitleTextBox
             // 
             this.passwTitleTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.passwTitleTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.passwTitleTextBox.Name = "passwTitleTextBox";
             this.passwTitleTextBox.Size = new System.Drawing.Size(133, 27);
             this.passwTitleTextBox.TextChanged += new System.EventHandler(this.passwTitleTextBox_TextChanged);
+            // 
+            // toolStripButton3
+            // 
+            this.toolStripButton3.BackColor = System.Drawing.Color.LightGray;
+            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButton3.Enabled = false;
+            this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
+            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton3.Name = "toolStripButton3";
+            this.toolStripButton3.Size = new System.Drawing.Size(57, 24);
+            this.toolStripButton3.Text = "Delete";
+            this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
             // 
             // toolStripSeparator2
             // 
@@ -177,13 +189,12 @@
             // newPasswTextBox
             // 
             this.newPasswTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.newPasswTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.newPasswTextBox.Name = "newPasswTextBox";
             this.newPasswTextBox.Size = new System.Drawing.Size(133, 27);
             // 
             // toolStripButton2
             // 
-            this.toolStripButton2.BackColor = System.Drawing.SystemColors.Info;
+            this.toolStripButton2.BackColor = System.Drawing.Color.LightGray;
             this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.toolStripButton2.Enabled = false;
             this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
@@ -197,18 +208,6 @@
             // 
             this.toolStripLabel3.Name = "toolStripLabel3";
             this.toolStripLabel3.Size = new System.Drawing.Size(0, 24);
-            // 
-            // toolStripButton3
-            // 
-            this.toolStripButton3.BackColor = System.Drawing.SystemColors.Info;
-            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton3.Enabled = false;
-            this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
-            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(57, 24);
-            this.toolStripButton3.Text = "Delete";
-            this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
             // 
             // Main
             // 
